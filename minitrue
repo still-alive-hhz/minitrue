@@ -3,7 +3,7 @@
 <head>
   <style>
     body {
-      background-image: url('your-image.jpg');
+      background-image: url('IMG_0119.png');
       background-size: cover;
       background-position: center;
     }
