@@ -41,13 +41,19 @@
             z-index: 1;
             text-align: center;
             padding: 0 2rem;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .title:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
     <div class="background-image"></div>
     <div class="container">
-        <h1 class="title">真理部</h1>
+        <h1 class="title" onclick="window.location.href='another-page.html'">真理部</h1>
     </div>
 </body>
 </html>
